@@ -1,0 +1,109 @@
+*************
+MIJENJANJE BOJE ELEMENTA
+*************
+
+
+        private void prikaz_stanje_Click(object sender, EventArgs e)
+        {
+            legenda_stanje.Visible = true;
+            legenda_vrste.Visible = false;
+
+            //Tekuæine
+            button50.BackColor = System.Drawing.Color.MediumTurquoise;
+            button70.BackColor = System.Drawing.Color.MediumTurquoise;
+
+            //Krutine
+            button250.BackColor = System.Drawing.Color.LimeGreen;
+            button150.BackColor = System.Drawing.Color.LimeGreen;
+            button1.BackColor = System.Drawing.Color.LimeGreen;
+            button2.BackColor = System.Drawing.Color.LimeGreen;
+            button3.BackColor = System.Drawing.Color.LimeGreen;
+            button4.BackColor = System.Drawing.Color.LimeGreen;
+            button5.BackColor = System.Drawing.Color.LimeGreen;
+            button6.BackColor = System.Drawing.Color.LimeGreen;
+            button7.BackColor = System.Drawing.Color.LimeGreen;
+            button8.BackColor = System.Drawing.Color.LimeGreen;
+            button9.BackColor = System.Drawing.Color.LimeGreen;
+            button10.BackColor = System.Drawing.Color.LimeGreen;
+            button11.BackColor = System.Drawing.Color.LimeGreen;
+            button12.BackColor = System.Drawing.Color.LimeGreen;
+            button15.BackColor = System.Drawing.Color.LimeGreen;
+            button16.BackColor = System.Drawing.Color.LimeGreen;
+            button17.BackColor = System.Drawing.Color.LimeGreen;
+            button18.BackColor = System.Drawing.Color.LimeGreen;
+            button19.BackColor = System.Drawing.Color.LimeGreen;
+            button20.BackColor = System.Drawing.Color.LimeGreen;
+            button21.BackColor = System.Drawing.Color.LimeGreen;
+            button23.BackColor = System.Drawing.Color.LimeGreen;
+            button25.BackColor = System.Drawing.Color.LimeGreen;
+            button27.BackColor = System.Drawing.Color.LimeGreen;
+            button28.BackColor = System.Drawing.Color.LimeGreen;
+            button29.BackColor = System.Drawing.Color.LimeGreen;
+            button31.BackColor = System.Drawing.Color.LimeGreen;
+            button32.BackColor = System.Drawing.Color.LimeGreen;
+            button33.BackColor = System.Drawing.Color.LimeGreen;
+            button34.BackColor = System.Drawing.Color.LimeGreen;
+            button35.BackColor = System.Drawing.Color.LimeGreen;
+            button36.BackColor = System.Drawing.Color.LimeGreen;
+            button37.BackColor = System.Drawing.Color.LimeGreen;
+            button38.BackColor = System.Drawing.Color.LimeGreen;
+            button39.BackColor = System.Drawing.Color.LimeGreen;
+            button40.BackColor = System.Drawing.Color.LimeGreen;
+            button41.BackColor = System.Drawing.Color.LimeGreen;
+            button42.BackColor = System.Drawing.Color.LimeGreen;
+            button43.BackColor = System.Drawing.Color.LimeGreen;
+            button44.BackColor = System.Drawing.Color.LimeGreen;
+            button45.BackColor = System.Drawing.Color.LimeGreen;
+            button46.BackColor = System.Drawing.Color.LimeGreen;
+            button47.BackColor = System.Drawing.Color.LimeGreen;
+            button48.BackColor = System.Drawing.Color.LimeGreen;
+            button49.BackColor = System.Drawing.Color.LimeGreen;
+            button51.BackColor = System.Drawing.Color.LimeGreen;
+            button52.BackColor = System.Drawing.Color.LimeGreen;
+            button54.BackColor = System.Drawing.Color.LimeGreen;
+            button55.BackColor = System.Drawing.Color.LimeGreen;
+            button56.BackColor = System.Drawing.Color.LimeGreen;
+            button57.BackColor = System.Drawing.Color.LimeGreen;
+            button58.BackColor = System.Drawing.Color.LimeGreen;
+            button59.BackColor = System.Drawing.Color.LimeGreen;
+            button60.BackColor = System.Drawing.Color.LimeGreen;
+            button61.BackColor = System.Drawing.Color.LimeGreen;
+            button62.BackColor = System.Drawing.Color.LimeGreen;
+            button67.BackColor = System.Drawing.Color.LimeGreen;
+            button65.BackColor = System.Drawing.Color.LimeGreen;
+            button66.BackColor = System.Drawing.Color.LimeGreen;
+            button68.BackColor = System.Drawing.Color.LimeGreen;
+            button72.BackColor = System.Drawing.Color.LimeGreen;
+
+            //Sintetièni
+            button16.BackColor = System.Drawing.Color.LightSalmon;
+            button22.BackColor = System.Drawing.Color.LightSalmon;
+            button30.BackColor = System.Drawing.Color.LightSalmon;
+            button24.BackColor = System.Drawing.Color.LightSalmon;
+            button38.BackColor = System.Drawing.Color.LightSalmon;
+            button34.BackColor = System.Drawing.Color.LightSalmon;
+            button87.BackColor = System.Drawing.Color.LightSalmon;
+            button26.BackColor = System.Drawing.Color.LightSalmon;
+            button88.BackColor = System.Drawing.Color.LightSalmon;
+            button89.BackColor = System.Drawing.Color.LightSalmon;
+            button90.BackColor = System.Drawing.Color.LightSalmon;
+            button91.BackColor = System.Drawing.Color.LightSalmon;
+            button92.BackColor = System.Drawing.Color.LightSalmon;
+            button93.BackColor = System.Drawing.Color.LightSalmon;
+            button94.BackColor = System.Drawing.Color.LightSalmon;
+            button95.BackColor = System.Drawing.Color.LightSalmon;
+
+            //Plinovi
+            button0.BackColor = System.Drawing.Color.Orchid;
+            button73.BackColor = System.Drawing.Color.Orchid;
+            button74.BackColor = System.Drawing.Color.Orchid;
+            button75.BackColor = System.Drawing.Color.Orchid;
+            button76.BackColor = System.Drawing.Color.Orchid;
+            button77.BackColor = System.Drawing.Color.Orchid;
+            button78.BackColor = System.Drawing.Color.Orchid;
+            button53.BackColor = System.Drawing.Color.Orchid;
+            button64.BackColor = System.Drawing.Color.Orchid;
+            button63.BackColor = System.Drawing.Color.Orchid;
+            button69.BackColor = System.Drawing.Color.Orchid;
+            button71.BackColor = System.Drawing.Color.Orchid;
+        }

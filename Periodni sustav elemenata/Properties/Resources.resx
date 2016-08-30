@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="aktin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aktin.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aluminij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aluminij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="americij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\americij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="antimon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\antimon.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="argon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\argon.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arsen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arsen.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="astat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\astat.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bakar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bakar.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berilij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\berilij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berkelij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\berkelij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bizmut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bizmut.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bohrij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bohrij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bor.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brom.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cerij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cerij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cezij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cezij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cink.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cirkonij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cirkonij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="darmstardij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\darmstardij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disprosij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disprosij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dubnij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dubnij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dušik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dušik.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="einsteinij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\einsteinij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erbij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erbij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="europij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\europij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fermij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fermij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fluor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fluor.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fosfor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fosfor.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="francij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\francij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gadolinij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gadolinij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="galij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\galij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="germanij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\germanij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hafnij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hafnij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hassij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hassij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="holmij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\holmij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="indij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\indij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iridij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iridij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iterbij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iterbij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="itrij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itrij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jod.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kadmij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kadmij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kalcij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kalcij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kalifornij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kalifornij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kalij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kalij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisik.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\klor.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kobalt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kobalt.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kositar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kositar.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kripton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kripton.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="krom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\krom.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ksenon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ksenon.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kurij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kurij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lantan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lantan.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lavrencij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lavrencij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lista_elemenata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elementi_nazivi.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="litij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\litij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lutetij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lutetij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magnezij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnezij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mangan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mangan.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meitnerij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meitnerij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mendelevij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mendelevij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="molbiden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\molbiden.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="natrij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\natrij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="neodimij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\neodimij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="neon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\neon.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="neptunij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\neptunij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netočno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\netočno.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nikal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nikal.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="niobij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\niobij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nobelij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nobelij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="olovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\olovo.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="osmij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\osmij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paladij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paladij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="platina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\platina.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plutonij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plutonij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="polonij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\polonij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="praseodimij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\praseodimij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prometij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prometij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="protaktinij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\protaktinij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSE.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\radij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\radon.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="renij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\renij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rodij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rodij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="roetgenij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\roetgenij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rubidij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rubidij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rutenij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rutenij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ruterfordij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ruterfordij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="samarij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\samarij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seaborgij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seaborgij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selenij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\selenij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="silicij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\silicij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skandij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skandij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slika_netocno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slika_netocno.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slika_prazno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slika_prazno.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slika_tocno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slika_tocno.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="srebro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\srebro.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stroncij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stroncij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sumpor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sumpor.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="talij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\talij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tantal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tantal.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tehnecij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tehnecij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="telurij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\telurij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="terbij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\terbij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="titanij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\titanij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="točno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\točno.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="torij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\torij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tulij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tulij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ugljik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ugljik.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unuheksij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unuheksij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unukvadrij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unukvadrij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ununoktij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ununoktij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ununubij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ununubij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ununutrij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ununutrij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unupentij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unupentij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unuseptij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unuseptij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uranij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uranij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vanadij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vanadij.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vodik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vodik.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="volfram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volfram.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="željezo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\željezo.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="živa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\živa.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zlato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zlato.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

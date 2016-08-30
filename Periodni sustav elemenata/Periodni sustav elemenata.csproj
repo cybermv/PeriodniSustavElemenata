@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9BFE7E9F-EF02-4318-A8B3-E9A1E33F4C2D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Periodni_sustav_elemenata</RootNamespace>
+    <AssemblyName>Periodni sustav elemenata</AssemblyName>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>FC5BEDA89346CC34ED2C9491CB8E7254F7E590B9</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Periodni sustav elemenata_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <ApplicationIcon>PSE.ico</ApplicationIcon>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignAssembly>false</SignAssembly>
+    <ExcludedPermissions>
+    </ExcludedPermissions>
+    <PublishUrl>M:\Mateovi dokumenti\Radna površina\DMIH\PSE RC FINAL\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ProductName>Periodni Sustav Elemenata</ProductName>
+    <PublisherName>Mateo Velenik</PublisherName>
+    <CreateWebPageOnPublish>false</CreateWebPageOnPublish>
+    <ApplicationVersion>1.4.0.0</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\desktop\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Desktop|AnyCPU' ">
+    <OutputPath>..\..\..\..\..\Radna površina\PSE_build\</OutputPath>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Zadano|AnyCPU' ">
+    <OutputPath>bin\Zadano\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="biljeske_radne_EN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="biljeske_radne_EN.Designer.cs">
+      <DependentUpon>biljeske_radne_EN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="biljeske_radne_HR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="biljeske_radne_HR.Designer.cs">
+      <DependentUpon>biljeske_radne_HR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="biljeske_radne_IT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="biljeske_radne_IT.Designer.cs">
+      <DependentUpon>biljeske_radne_IT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dod_informacije_HR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dod_informacije_HR.Designer.cs">
+      <DependentUpon>dod_informacije_HR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kviz_database.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Kviz_database.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_dodatni_nazivi_EN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_dodatni_nazivi_EN.Designer.cs">
+      <DependentUpon>kviz_dodatni_nazivi_EN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_dodatni_nazivi_HR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_dodatni_nazivi_HR.Designer.cs">
+      <DependentUpon>kviz_dodatni_nazivi_HR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_dodatni_nazivi_IT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_dodatni_nazivi_IT.Designer.cs">
+      <DependentUpon>kviz_dodatni_nazivi_IT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_dodatni_simboli_EN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_dodatni_simboli_EN.Designer.cs">
+      <DependentUpon>kviz_dodatni_simboli_EN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_dodatni_simboli_HR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_dodatni_simboli_HR.Designer.cs">
+      <DependentUpon>kviz_dodatni_simboli_HR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_dodatni_simboli_IT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_dodatni_simboli_IT.Designer.cs">
+      <DependentUpon>kviz_dodatni_simboli_IT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_nazivi_EN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_nazivi_EN.Designer.cs">
+      <DependentUpon>kviz_nazivi_EN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_nazivi_HR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_nazivi_HR.Designer.cs">
+      <DependentUpon>kviz_nazivi_HR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_nazivi_IT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_nazivi_IT.Designer.cs">
+      <DependentUpon>kviz_nazivi_IT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_simboli_EN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_simboli_EN.Designer.cs">
+      <DependentUpon>kviz_simboli_EN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_simboli_HR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_simboli_HR.Designer.cs">
+      <DependentUpon>kviz_simboli_HR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kviz_simboli_IT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kviz_simboli_IT.Designer.cs">
+      <DependentUpon>kviz_simboli_IT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="o_programu_EN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="o_programu_EN.Designer.cs">
+      <DependentUpon>o_programu_EN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="o_programu_HR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="o_programu_HR.Designer.cs">
+      <DependentUpon>o_programu_HR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="o_programu_IT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="o_programu_IT.Designer.cs">
+      <DependentUpon>o_programu_IT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PSE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PSE.Designer.cs">
+      <DependentUpon>PSE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="biljeske_radne_EN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>biljeske_radne_EN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="biljeske_radne_HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>biljeske_radne_HR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="biljeske_radne_IT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>biljeske_radne_IT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dod_informacije_HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dod_informacije_HR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_dodatni_nazivi_EN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>kviz_dodatni_nazivi_EN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_dodatni_nazivi_HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>kviz_dodatni_nazivi_HR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_dodatni_nazivi_IT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>kviz_dodatni_nazivi_IT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_dodatni_simboli_EN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>kviz_dodatni_simboli_EN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_dodatni_simboli_HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>kviz_dodatni_simboli_HR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_dodatni_simboli_IT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>kviz_dodatni_simboli_IT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_nazivi_EN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>kviz_nazivi_EN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_nazivi_HR.resx">
+      <DependentUpon>kviz_nazivi_HR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_nazivi_IT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>kviz_nazivi_IT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_simboli_EN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>kviz_simboli_EN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_simboli_HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>kviz_simboli_HR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kviz_simboli_IT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>kviz_simboli_IT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="o_programu_EN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>o_programu_EN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="o_programu_HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>o_programu_HR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="o_programu_IT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>o_programu_IT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSE.hr-HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSE.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elementi_nazivi.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\Ikona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Resources\PSE.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="kviz.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PSE.ico" />
+    <None Include="Resources\publish.htm" />
+    <None Include="Resources\argon.jpg" />
+    <None Include="Resources\antimon.jpg" />
+    <None Include="Resources\americij.jpg" />
+    <None Include="Resources\aluminij.jpg" />
+    <None Include="Resources\aktin.jpg" />
+    <None Include="Resources\živa.jpg" />
+    <None Include="Resources\željezo.jpg" />
+    <None Include="Resources\zlato.jpg" />
+    <None Include="Resources\volfram.jpg" />
+    <None Include="Resources\vodik.jpg" />
+    <None Include="Resources\vanadij.jpg" />
+    <None Include="Resources\uranij.jpg" />
+    <None Include="Resources\unuseptij.jpg" />
+    <None Include="Resources\unupentij.jpg" />
+    <None Include="Resources\ununutrij.jpg" />
+    <None Include="Resources\ununubij.jpg" />
+    <None Include="Resources\ununoktij.jpg" />
+    <None Include="Resources\unukvadrij.jpg" />
+    <None Include="Resources\unuheksij.jpg" />
+    <None Include="Resources\ugljik.jpg" />
+    <None Include="Resources\tulij.jpg" />
+    <None Include="Resources\torij.jpg" />
+    <None Include="Resources\titanij.jpg" />
+    <None Include="Resources\terbij.jpg" />
+    <None Include="Resources\telurij.jpg" />
+    <None Include="Resources\tehnecij.jpg" />
+    <None Include="Resources\tantal.jpg" />
+    <None Include="Resources\talij.jpg" />
+    <None Include="Resources\sumpor.jpg" />
+    <None Include="Resources\stroncij.jpg" />
+    <None Include="Resources\srebro.jpg" />
+    <None Include="Resources\skandij.jpg" />
+    <None Include="Resources\silicij.jpg" />
+    <None Include="Resources\selenij.jpg" />
+    <None Include="Resources\seaborgij.jpg" />
+    <None Include="Resources\samarij.jpg" />
+    <None Include="Resources\ruterfordij.jpg" />
+    <None Include="Resources\rutenij.jpg" />
+    <None Include="Resources\rubidij.jpg" />
+    <None Include="Resources\roetgenij.jpg" />
+    <None Include="Resources\rodij.jpg" />
+    <None Include="Resources\renij.jpg" />
+    <None Include="Resources\radon.jpg" />
+    <None Include="Resources\radij.jpg" />
+    <None Include="Resources\protaktinij.jpg" />
+    <None Include="Resources\prometij.jpg" />
+    <None Include="Resources\praseodimij.jpg" />
+    <None Include="Resources\polonij.jpg" />
+    <None Include="Resources\plutonij.jpg" />
+    <None Include="Resources\platina.jpg" />
+    <None Include="Resources\paladij.jpg" />
+    <None Include="Resources\osmij.jpg" />
+    <None Include="Resources\olovo.jpg" />
+    <None Include="Resources\nobelij.jpg" />
+    <None Include="Resources\niobij.jpg" />
+    <None Include="Resources\nikal.jpg" />
+    <None Include="Resources\neptunij.jpg" />
+    <None Include="Resources\neon.jpg" />
+    <None Include="Resources\neodimij.jpg" />
+    <None Include="Resources\natrij.jpg" />
+    <None Include="Resources\molbiden.jpg" />
+    <None Include="Resources\mendelevij.jpg" />
+    <None Include="Resources\meitnerij.jpg" />
+    <None Include="Resources\mangan.jpg" />
+    <None Include="Resources\magnezij.jpg" />
+    <None Include="Resources\lutetij.jpg" />
+    <None Include="Resources\litij.jpg" />
+    <None Include="Resources\lavrencij.jpg" />
+    <None Include="Resources\lantan.jpg" />
+    <None Include="Resources\kurij.jpg" />
+    <None Include="Resources\ksenon.jpg" />
+    <None Include="Resources\krom.jpg" />
+    <None Include="Resources\kripton.jpg" />
+    <None Include="Resources\kositar.jpg" />
+    <None Include="Resources\kobalt.jpg" />
+    <None Include="Resources\klor.jpg" />
+    <None Include="Resources\kisik.jpg" />
+    <None Include="Resources\kalij.jpg" />
+    <None Include="Resources\kalifornij.jpg" />
+    <None Include="Resources\kalcij.jpg" />
+    <None Include="Resources\kadmij.jpg" />
+    <None Include="Resources\jod.jpg" />
+    <None Include="Resources\itrij.jpg" />
+    <None Include="Resources\iterbij.jpg" />
+    <None Include="Resources\iridij.jpg" />
+    <None Include="Resources\indij.jpg" />
+    <None Include="Resources\holmij.jpg" />
+    <None Include="Resources\helij.jpg" />
+    <None Include="Resources\hassij.jpg" />
+    <None Include="Resources\hafnij.jpg" />
+    <None Include="Resources\germanij.jpg" />
+    <None Include="Resources\galij.jpg" />
+    <None Include="Resources\gadolinij.jpg" />
+    <None Include="Resources\francij.jpg" />
+    <None Include="Resources\fosfor.jpg" />
+    <None Include="Resources\fluor.jpg" />
+    <None Include="Resources\fermij.jpg" />
+    <None Include="Resources\europij.jpg" />
+    <None Include="Resources\erbij.jpg" />
+    <None Include="Resources\einsteinij.jpg" />
+    <None Include="Resources\dušik.jpg" />
+    <None Include="Resources\dubnij.jpg" />
+    <None Include="Resources\disprosij.jpg" />
+    <None Include="Resources\darmstardij.jpg" />
+    <None Include="Resources\cirkonij.jpg" />
+    <None Include="Resources\cink.jpg" />
+    <None Include="Resources\cezij.jpg" />
+    <None Include="Resources\cerij.jpg" />
+    <None Include="Resources\brom.jpg" />
+    <None Include="Resources\bor.jpg" />
+    <None Include="Resources\bohrij.jpg" />
+    <None Include="Resources\bizmut.jpg" />
+    <None Include="Resources\berkelij.jpg" />
+    <None Include="Resources\berilij.jpg" />
+    <None Include="Resources\barij.jpg" />
+    <None Include="Resources\bakar.jpg" />
+    <None Include="Resources\astat.jpg" />
+    <None Include="Resources\arsen.jpg" />
+    <None Include="Resources\kalii.jpg" />
+    <None Include="Kviz_database.xsc">
+      <DependentUpon>Kviz_database.xsd</DependentUpon>
+    </None>
+    <None Include="Kviz_database.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Kviz_database.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Kviz_database.xss">
+      <DependentUpon>Kviz_database.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\slika_tocno.bmp" />
+    <None Include="Resources\slika_prazno.bmp" />
+    <None Include="Resources\slika_netocno.bmp" />
+    <None Include="Resources\netočno.wav" />
+    <None Include="Resources\točno.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="IZBAČENI KOD.txt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
